@@ -1,0 +1,29 @@
+{
+  "name": "lasso-cssnext",
+  "version": "1.0.0",
+  "description": "cssnext plugin for Lasso.js",
+  "keywords": [
+    "lasso",
+    "lasso-plugin",
+    "cssnext"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FiW/lasso-cssnext.git"
+  },
+  "main": "lasso-cssnext.js",
+  "scripts": {
+    "test": "node_modules/.bin/jshint *.js"
+  },
+  "author": "Alexander Kuznetsov <alexander@kuznetsov.online>",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^6.0.17",
+    "postcss-cssnext": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "jshint": "^2.4.4",
+    "mocha": "~1.15.1"
+  }
+}
